@@ -1,48 +1,35 @@
-h1, h2  {
-    color:rebeccapurple;
-    font-size: 95px;
+h1 {    
+    color:darkslateblue;
     font-family: Helvetica;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    margin-left: 50px;
-    margin-right: 1px;
+    border: 0px;
+}
+h2 {
+    color:black;
+    font-family: Helvetica;
+    border: 0px;
+    text-align: center;
+}
+h3 {
+    color:darkslateblue;
+    font-family: Helvetica;
+    border: 0px;
+    }
+h4 {
+    color: white;
+    outline: black;
+    font-family: Helvetica;
+}
+#log_in {
     border: 1px solid black;
-    padding-top: 15px;
-    padding-left: 10px;
+    width: 200px;
+    padding: 10px;
 }
-p   {
-    text-align:center;
-    font-family: Helvetica;
+p {
+    color: darkslateblue;
+    font-family: 'Courier New', Courier, monospace;
 }
-img {
-    height: 300px;
-}
-em {
-    text-transform: uppercase;
-    font-style: initial;
-}
-body {
-    background-color: lightslategray;
-}
-/* example of a ID */    
-#first {
-    text-align: left;
-}
-/* example of a class */
-.right {
-    text-align: right;
-}
-.tacos{
-    color: yellow;
-}
-.big {
-    font-size: 90px;
-}
-
-.tacos .big {
-    font-family: 'Franklin Gothic Medium';
-}
-
-p.tacos .big{
-    text-transform: uppercase;
+.dietary {
+    background-color: lightsalmon;
+    color: white;
+    padding: 10px;
 }
